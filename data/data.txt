@@ -1,0 +1,9 @@
+(1). Dataset link for Binary Classification problem (Kaggle's Cats and Dogs): https://drive.google.com/file/d/1G2i5WbATNHNwb4tN38mnzPlJ9L0OQ3cP 
+
+(2). Dataset for Multi-class classification problem: Used cifar10 dataset from keras library using 
+following code :
+from keras.datasets import cifar10
+# load data
+(train_images, train_labels), (test_images, test_labels) = cifar10.load_data()
+
+ 
